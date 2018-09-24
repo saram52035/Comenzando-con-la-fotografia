@@ -26,6 +26,7 @@ a{
 }
 img{
 	box-shadow: 2px 2px #02010a;
+	width: 100%
 }
 
 footer {
@@ -46,10 +47,6 @@ text-align: center;
 }
 .adaptativa-porcentaje{
 	width:90%;
-}
-
-.adaptativa-porcentaje-1{
-	width:80%;
 }
 
 #menu-principal {
@@ -97,6 +94,10 @@ text-align: center;
 #img1 img{
 	-webkit-filter: blur(10px);
 	filter: blur(10px);
+}
+#img3{
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
 }
 #img4 img{
 	-webkit-filter: grayscale(100%);
@@ -173,5 +174,30 @@ text-align: center;
 	flex-flow: column nowrap;
 	text-align: center;
 	width: 100%;
+	height: auto;
+	}
+	#destacados .contenedor > div {
+		text-align: center;
+		padding: 10px;
+		margin: 10px;
+		background-color: #d5c75f;
+		width: 90%;
+		text-shadow: 2px 2px #82c3a6;
+	}
+	#imagenes13 .contenedor > div {
+		text-align: center;
+		padding: 10px;
+		margin: 10px;
+		background-color: #d5c75f;
+		width: 90%;
+		text-shadow: 2px 2px #82c3a6;
+	}
+	#imagenes46 .contenedor > div {
+		text-align: center;
+		padding: 10px;
+		margin: 10px;
+		background-color: #d5c75f;
+		width: 90%;
+		text-shadow: 2px 2px #82c3a6;
 	}
 }

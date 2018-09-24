@@ -95,7 +95,7 @@ text-align: center;
 	-webkit-filter: blur(10px);
 	filter: blur(10px);
 }
-#img3{
+#img3 img{
 	-webkit-filter: sepia(100%);
 	filter: sepia(100%);
 }
@@ -144,9 +144,21 @@ text-align: center;
 }
 #imagenes13 img{
 	width: 80%;
+	background-color: #d5c75f;
 }
 #imagenes46 img{
 	width: 80%;
+
+}
+#imagenes13 .contenedor > div {
+	background-color: #d5c75f;
+}
+#imagenes46 .contenedor > div {
+	background-color: #d5c75f;
+}
+
+#galeria >section{
+		background-color: #d5c75f;
 }
 #pie .contenedor > div {
 	text-align: center;
@@ -166,8 +178,11 @@ text-align: center;
 }
 
 @media all and (max-width: 900px) {
-	.contenedor1 {
+	#principal {
+		text-align: center;
+		background-color: #82c3a6;
 		width: 100%;
+		text-shadow: 2px 2px #82c3a6;
 	}
 	.contenedor {
 	display: flex;
@@ -183,6 +198,9 @@ text-align: center;
 		background-color: #d5c75f;
 		width: 90%;
 		text-shadow: 2px 2px #82c3a6;
+	}
+	#galeria{
+		background-color: red;
 	}
 	#imagenes13 .contenedor > div {
 		text-align: center;
